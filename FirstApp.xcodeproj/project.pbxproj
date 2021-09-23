@@ -11,6 +11,7 @@
 		284458BE26FCC76E001B6C87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284458BD26FCC76E001B6C87 /* ContentView.swift */; };
 		284458C026FCC76E001B6C87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284458BF26FCC76E001B6C87 /* Assets.xcassets */; };
 		284458C326FCC76E001B6C87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284458C226FCC76E001B6C87 /* Preview Assets.xcassets */; };
+		284458CA26FCC820001B6C87 /* File.txt in Resources */ = {isa = PBXBuildFile; fileRef = 284458C926FCC820001B6C87 /* File.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		284458BD26FCC76E001B6C87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		284458BF26FCC76E001B6C87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		284458C226FCC76E001B6C87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		284458C926FCC820001B6C87 /* File.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = File.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				284458BD26FCC76E001B6C87 /* ContentView.swift */,
 				284458BF26FCC76E001B6C87 /* Assets.xcassets */,
 				284458C126FCC76E001B6C87 /* Preview Content */,
+				284458C926FCC820001B6C87 /* File.txt */,
 			);
 			path = FirstApp;
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 			files = (
 				284458C326FCC76E001B6C87 /* Preview Assets.xcassets in Resources */,
 				284458C026FCC76E001B6C87 /* Assets.xcassets in Resources */,
+				284458CA26FCC820001B6C87 /* File.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
