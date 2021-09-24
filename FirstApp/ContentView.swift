@@ -7,9 +7,11 @@
 
 import SwiftUI
 
+var memo:String = "Hello, Swift UI! from memo"
+
 struct ContentView: View {
     var body: some View {
-        Text("Hello, Swift UI!")
+        Text(memo)
             .padding()
     }
 }

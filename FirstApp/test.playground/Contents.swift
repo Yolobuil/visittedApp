@@ -1,7 +1,7 @@
 print("Hello, World!")
 
 var variable = 30
-variable = 60００m
+variable = 60
 
 var b = "kon"
 
@@ -47,3 +47,33 @@ else {
     // 最後
     print(100)
 }
+
+
+switch math {
+case 10:
+    print(10)
+case 30:
+    print(30)
+default:
+    print(100000)
+}
+
+var age = 24
+
+func Drink(){
+    guard age >= 20 else{
+    print("酒が飲めない")
+    return
+}
+    print("酒を飲む")
+}
+Drink()
+
+var optionalInt:Int?
+
+print(optionalInt)
+// 初期値を与えてないため、nilになる
+
+optionalInt = 30
+
+print(optionalInt)
