@@ -21,6 +21,7 @@
 		284458BF26FCC76E001B6C87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		284458C226FCC76E001B6C87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		284458C926FCC820001B6C87 /* File.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = File.txt; sourceTree = "<group>"; };
+		284458CB26FE131F001B6C87 /* test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = test.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 				284458BF26FCC76E001B6C87 /* Assets.xcassets */,
 				284458C126FCC76E001B6C87 /* Preview Content */,
 				284458C926FCC820001B6C87 /* File.txt */,
+				284458CB26FE131F001B6C87 /* test.playground */,
 			);
 			path = FirstApp;
 			sourceTree = "<group>";
