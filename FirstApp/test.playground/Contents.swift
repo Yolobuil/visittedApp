@@ -76,4 +76,10 @@ print(optionalInt)
 
 optionalInt = 30
 
+// オプショナル型にラップされているため、optional(30)が出力
 print(optionalInt)
+
+
+// アンラップされるので30と出力
+print(optionalInt!)
+
