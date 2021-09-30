@@ -80,6 +80,53 @@ optionalInt = 30
 print(optionalInt)
 
 
+var optionalString: String? = "a"
+
+optionalString!
+
 // アンラップされるので30と出力
 print(optionalInt!)
+
+// オプショナルバインディング
+// optionalIntがnilではない時
+if let unwrapedInt = optionalInt{
+print(unwrapedInt)
+}
+else {
+print("nil")
+}
+// optionalIntがnilの時
+optionalInt = nil
+if let unwrapedInt = optionalInt{
+print(unwrapedInt)
+}
+else {
+print("nil")
+}
+
+// guardによるオプショナルバインディン
+func Unwrap(){
+    // optionalIntがnilの時elseが呼ばれる
+guard let unwrapedInt2 = optionalInt else{
+    print("nil")
+    // returnで処理が呼ばれる
+    return
+}
+print(unwrapedInt2)
+}
+
+Unwrap()
+
+var sports = ["サッカー","テニス","バスケ"]
+
+print(sports[1])
+sports.append("卓球")
+// 全ての配列を表示できる
+print(sports)
+
+var emptyArray = [String]()
+
+print(emptyArray)
+
+
 
