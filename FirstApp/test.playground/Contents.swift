@@ -129,4 +129,16 @@ var emptyArray = [String]()
 print(emptyArray)
 
 
+// 辞書
+var occupation  = [
+    "yamada": "SE",
+    "tanaka": "Designner",
+]
+
+// 取り出し方
+print(occupation["yamada"]!)
+
+occupation["takeda"] = "philosophy"
+
+var test = [String : String]()
 
